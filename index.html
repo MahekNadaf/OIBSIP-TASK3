@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link href="temp.css" rel="stylesheet" />
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.js"
+    ></script>
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="hero">
+      <h1 class="heading">Temperature Converter</h1>
+
+      <div class="value-items">
+        <label>Fahrenheit :</label>
+        <input
+          class="links"
+          type="number"
+          id="fahrenheit"
+          placeholder="Enter value"
+        />
+      </div>
+      <br /><br />
+      <div class="value1-items">
+        <label>Celsius :</label>
+        <input
+          class="links1"
+          type="number"
+          id="celsius"
+          placeholder="Enter Value"
+        />
+        <br />
+      </div>
+
+      <br />
+      <button class="btn" onclick="reset()">Change Value</button>
+    </div>
+  </body>
+</html>

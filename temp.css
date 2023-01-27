@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(151, 168, 168);
+}
+
+.heading {
+  padding-top: 5px;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.value-items {
+  padding-top: 20px;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.value1-items {
+  padding-top: 5px;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.links {
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(241, 240, 232);
+  background-color: rgb(246, 137, 59);
+  border: 1px solid rgb(246, 137, 59);
+  cursor: pointer;
+}
+.links1 {
+  margin-left: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(241, 240, 232);
+  background-color: rgb(246, 137, 59);
+  border: 1px solid rgb(246, 137, 59);
+  cursor: pointer;
+}
+.btn {
+  margin-left: 120px;
+  padding: 15px;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: rgb(241, 240, 232);
+  background-color: rgb(246, 137, 59);
+  border: 1px solid rgb(246, 137, 59);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(187, 98, 4);
+}
+.links:hover,
+.links1:hover {
+  background-color: rgb(187, 98, 4);
+}
+
+.hero {
+  background-color: azure;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 50px 70px;
+  margin-top: 200px;
+  box-shadow: 5px 5px 5px 2px rgb(104, 102, 102);
+}
